@@ -1,0 +1,98 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: hsl(217, 54%, 11%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 12px;
+      overflow: hidden;
+      width: 300px;
+      padding: 20px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .card > img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+        font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+      color: white;
+      margin: 10px 0;
+    }
+
+    .card p {
+      color: hsl(215, 51%, 70%);
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+
+    .details {
+    
+      display: grid;
+      grid-template-columns: 20px 200px 20px 70px;
+      margin-bottom: 15px;
+      font-size: 14px;
+        font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+    }
+.details .ethereum{
+  width:10px;
+
+}
+.details .clock{
+  width: 15px;
+}
+    .price {
+      color: hsl(178, 100%, 50%);
+      font-weight: bold;
+    }
+
+    .time {
+      color: hsl(215, 51%, 70%);
+    }
+
+    .creator {
+      border-top: 1px solid hsl(215, 32%, 27%);
+      padding-top: 15px;
+      display: grid;
+      grid-template-columns: 50px 200px;
+      align-items: center;
+    }
+
+    .creator img {
+      width: 30px;
+      border-radius: 50%;
+      border: 1px solid white;
+    }
+
+    .creator span {
+      color: hsl(215, 51%, 70%);
+      font-size: 14px;
+        font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+    }
+
+    .creator span strong {
+      color: white;
+    }
